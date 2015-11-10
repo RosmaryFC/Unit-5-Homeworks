@@ -10,8 +10,7 @@ public class Main {
         }
 
         String firstLetter = String.valueOf(word.charAt(0));
-
-        String newWord = word.replace(firstLetter, "");
+        String newWord = word.replace(firstLetter, ""); 
 
         if(newWord.length() % 2 != 0){
             //length of word is odd meaning an odd amount of chars were removed return FALSE;
@@ -22,6 +21,7 @@ public class Main {
         return isEvenWord(newWord);
     }
 
+    //this is great, would love to see more test cases
     public static void main(String[] args) {
 
         System.out.println("Is appeases an Even Word? - " + isEvenWord("appeases"));
