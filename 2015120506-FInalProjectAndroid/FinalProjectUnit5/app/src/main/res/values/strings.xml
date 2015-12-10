@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ITUNES SEARCH</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="searchHint">Enter Keywords here</string>
+    <string name="searchBtn">Search</string>
+
+
+    <string-array name="media_array">
+        <item>Music</item>
+        <!--<item>Software</item>-->
+        <!--<item>Movies</item>-->
+        <!--<item>Podcasts</item>-->
+        <!--<item>Videos</item>-->
+        <!--<item>TV Shows</item>-->
+    </string-array>
+</resources>
